@@ -1,10 +1,10 @@
-package com.study;
+package com.smelk;
 
 import java.util.Scanner;
 
-class Addition {
+public class Multiplication {
 
-    static void additionRomeNumbers(Scanner num) {
+    static void multiplicateRomeNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         String firstSymbolValue = num.next();
@@ -17,31 +17,23 @@ class Addition {
         RomanToDecimal.romanToDecimal(secondSymbolValue);
         int secondValue = RomanToDecimal.decimal;
 
-        int result = firstValue + secondValue;
-
-        System.out.println(result);
+        int result = firstValue * secondValue;
 
         DecimalToRoman.decimalToRoman(result);
 
     }
 
-    static void additionArabicNumbers(Scanner num) {
+    static void multiplicateArabicNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         Integer firstSymbolValue = num.nextInt();
         int firstValue = firstSymbolValue;
 
-
         System.out.print("Print second value: ");
         Integer secondSymbolValue = num.nextInt();
         int secondValue = secondSymbolValue;
 
-        int result = firstValue + secondValue;
+        int result = firstValue * secondValue;
         System.out.print("Result: " + result);
-
     }
-
 }
-
-
-

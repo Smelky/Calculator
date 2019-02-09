@@ -1,9 +1,13 @@
-package com.study;
+package com.smelk;
 
 public class DecimalToRoman {
 
     static void decimalToRoman(int result) {
         String resultInRoman = "";
+
+        if (result == 0){
+            resultInRoman = resultInRoman + "Zero";
+        }
 
         if (result >= 1000) {
             do {
@@ -53,6 +57,6 @@ public class DecimalToRoman {
                 result = result - 1;
             } while (result >= 1);
         }
-        System.out.println("result: " + resultInRoman);
+        System.out.println("Result: " + resultInRoman);
     }
 }

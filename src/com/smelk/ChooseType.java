@@ -1,4 +1,4 @@
-package com.study;
+package com.smelk;
 
 import java.util.Scanner;
 
@@ -17,6 +17,5 @@ class ChooseType {
         if (chooseType.equals("2")) {
             ChooseOperation.chooseOperation(num, 2);
         }
-
     }
 }
