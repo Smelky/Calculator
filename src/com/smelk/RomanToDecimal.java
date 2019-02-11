@@ -2,7 +2,7 @@ package com.smelk;
 
 public class RomanToDecimal {
 
-    static int decimal = 0;
+    public static int decimal = 0;
 
     public static void romanToDecimal(java.lang.String romanNumber) {
         String romanNumeral = romanNumber.toUpperCase();
@@ -41,4 +41,3 @@ public class RomanToDecimal {
         }
     }
 }
-

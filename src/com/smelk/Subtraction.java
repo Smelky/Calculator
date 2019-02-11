@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Subtraction {
 
-    static void substractionRomeNumbers(Scanner num) {
+    public static void substractionRomeNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         String firstSymbolValue = num.next();
@@ -23,7 +23,7 @@ public class Subtraction {
 
     }
 
-    static void substractArabicNumbers(Scanner num) {
+    public static void substractArabicNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         Integer firstSymbolValue = num.nextInt();

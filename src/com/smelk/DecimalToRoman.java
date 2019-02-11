@@ -2,10 +2,10 @@ package com.smelk;
 
 public class DecimalToRoman {
 
-    static void decimalToRoman(int result) {
+    public static void decimalToRoman(int result) {
         String resultInRoman = "";
 
-        if (result == 0){
+        if (result == 0) {
             resultInRoman = resultInRoman + "Zero";
         }
 

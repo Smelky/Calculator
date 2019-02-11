@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Divide {
 
-    static void divideRomeNumbers(Scanner num) {
+    public static void divideRomeNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         String firstSymbolValue = num.next();
@@ -22,7 +22,7 @@ public class Divide {
         DecimalToRoman.decimalToRoman(result);
     }
 
-    static void divideArabicNumbers(Scanner num) {
+    public static void divideArabicNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         Integer firstSymbolValue = num.nextInt();

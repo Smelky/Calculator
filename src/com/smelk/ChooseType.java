@@ -2,9 +2,9 @@ package com.smelk;
 
 import java.util.Scanner;
 
-class ChooseType {
+public class ChooseType {
 
-    static void chooseType() {
+    public static void chooseType() {
 
         System.out.print("Choose Rome (Press 1) or Arabian (Press 2) numbers  ? \n: ");
         Scanner num = new Scanner(System.in);

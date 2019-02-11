@@ -2,9 +2,9 @@ package com.smelk;
 
 import java.util.Scanner;
 
-class Addition {
+public class Addition {
 
-    static void additionRomeNumbers(Scanner num) {
+    public static void additionRomeNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         String firstSymbolValue = num.next();
@@ -22,7 +22,7 @@ class Addition {
         DecimalToRoman.decimalToRoman(result);
     }
 
-    static void additionArabicNumbers(Scanner num) {
+    public static void additionArabicNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         Integer firstSymbolValue = num.nextInt();
@@ -36,6 +36,3 @@ class Addition {
         System.out.print("Result: " + result);
     }
 }
-
-
-

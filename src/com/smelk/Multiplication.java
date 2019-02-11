@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Multiplication {
 
-    static void multiplicateRomeNumbers(Scanner num) {
+    public static void multiplicateRomeNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         String firstSymbolValue = num.next();
@@ -23,7 +23,7 @@ public class Multiplication {
 
     }
 
-    static void multiplicateArabicNumbers(Scanner num) {
+    public static void multiplicateArabicNumbers(Scanner num) {
 
         System.out.print("Print first value: ");
         Integer firstSymbolValue = num.nextInt();
